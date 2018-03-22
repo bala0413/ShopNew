@@ -50,13 +50,13 @@ namespace MyShop.WebUI.Controllers
             }
             else
             {
-                return View (product);
+                return View(product);
             }
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "We are the top online purchasing company in India";
 
             return View();
         }
